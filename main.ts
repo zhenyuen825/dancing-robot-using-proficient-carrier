@@ -1,0 +1,12 @@
+basic.showIcon(IconNames.Happy)
+SuperBit.Servo2(SuperBit.enServo.S1, 120)
+basic.forever(function () {
+    SuperBit.Servo2(SuperBit.enServo.S1, 120)
+    basic.pause(500)
+    SuperBit.Servo2(SuperBit.enServo.S1, 60)
+    basic.pause(500)
+    SuperBit.Servo2(SuperBit.enServo.S1, 120)
+    basic.pause(500)
+    SuperBit.Servo2(SuperBit.enServo.S1, 180)
+    basic.pause(500)
+})
